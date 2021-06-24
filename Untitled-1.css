@@ -11,7 +11,8 @@ font-family: 'Roboto', sans-serif;
 .placement{
 
     text-align: center ;
-   
+    display: flex;
+    justify-content: center;
 
 }
 
@@ -22,7 +23,7 @@ background-color: white;
 border-radius: 15px;
 padding: 20px;
 width: 350px;
-height: 700px; 
+height: 850px; 
 text-align: center ;
 
 }
@@ -42,5 +43,12 @@ input[type=button], input[type=submit], input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     cursor: pointer;
+    
   }
   
+  input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 30px;
+    
+  }
